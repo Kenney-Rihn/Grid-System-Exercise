@@ -3,9 +3,11 @@
     padding: 0;
 
 }
-/*.tablet-button{*/
-    /*display: none;*/
-/*}*/
+.tablet-button{
+    display: none;
+}
+
+
 .custom-link{
     font-family: 'Abel',sans-serif;
     /*text-align: center;*/
