@@ -62,3 +62,14 @@ p{
     width: 80%;
 }
 
+#small-circle{
+    width: 18px;
+    height: 18px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 18px;
+    float: left;
+}
