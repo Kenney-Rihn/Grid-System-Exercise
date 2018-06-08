@@ -3,6 +3,9 @@
     padding: 0;
 
 }
+/*.tablet-button{*/
+    /*display: none;*/
+/*}*/
 .custom-link{
     font-family: 'Abel',sans-serif;
     /*text-align: center;*/
@@ -82,3 +85,13 @@ p{
     float: left;
 }
 
+@media screen and (min-width: 768px){
+
+    .mobile-buttons{
+            display: none;
+    }
+    .navbar{
+        /*display: inline;*/
+    }
+
+}
