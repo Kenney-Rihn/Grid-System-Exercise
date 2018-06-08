@@ -7,10 +7,12 @@
 
 body{
     font-family: 'Anton', sans-serif;
-    font-family: 'Abel', sans-serif;
+
     background-color: darkgrey;
 }
 img{
     width:25%;
 }
-
+p{
+    font-family: 'Abel', sans-serif;
+}
