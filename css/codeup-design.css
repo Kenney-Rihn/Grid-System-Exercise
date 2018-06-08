@@ -3,7 +3,7 @@
     padding: 0;
 
 }
-.tablet-button, .medium-images{
+.tablet-button{
     display: none;
 }
 
@@ -22,7 +22,7 @@ body{
     height: 105px;
     z-index: 1000;
     position: relative;
-    top:-60px;
+    top:-77px;
     left:0px;
 
 }
@@ -43,7 +43,7 @@ p{
 .custom-h1{
     font-family: 'anton', sans-serif;
 }
-#circle{
+.circle{
     width: 105px;
     height: 105px;
     -webkit-border-radius: 25px;
@@ -76,7 +76,7 @@ p{
     height: 230px;
 }
 
-#small-circle{
+.small-circle{
     width: 18px;
     height: 18px;
     -webkit-border-radius: 25px;
@@ -87,6 +87,16 @@ p{
     line-height: 18px;
     float: left;
 }
+.image{
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
 
 @media screen and (min-width: 768px){
 
@@ -97,26 +107,31 @@ p{
     .navbar{
         /*display: inline;*/
     }
-    #apple-img{
-        width: auto;
-        height: 230px;
+    #apple-img {
+        width:auto;
+        height:230px;
     }
+
     #macbook-img{
         border: 3px solid #f0f0f0;
         border-radius: 5px;
-        width: auto;
-        height: 230px;
+        width:auto;
+        height:230px;
     }
     #man-img{
         border: 3px solid #f0f0f0;
         border-radius: 5px;
-        width: auto;
-        height: 230px;
+        width:auto;
+        height:230px;
     }
     #security-img{
         border: 3px solid #f0f0f0;
         border-radius: 5px;
-        width: auto;
-        height: 230px;
+        width:auto;
+        height:230px;
+
+    }
+    .mobile-images{
+        display:none;
     }
 }
