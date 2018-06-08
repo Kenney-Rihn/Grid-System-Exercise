@@ -12,10 +12,18 @@ body{
 
     background-color: #e6e6e6;
 }
-img{
-    width:25%;
-    z-index: 10001;}
+.image-settings {
+    width: 105px;
+    height: 105px;
+    text-align: center;
+    display:table-cell;
+    vertical-align: middle;
+}
 
+.custom-row{
+    max-height: 95px;
+    overflow-y: visible;
+}
 h1,h5{
     text-align:center;
     font-family: 'Abel', sans-serif;
@@ -75,3 +83,4 @@ p{
     line-height: 18px;
     float: left;
 }
+
