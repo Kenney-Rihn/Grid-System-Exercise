@@ -3,8 +3,9 @@
     padding: 0;
 
 }
-
-
+.custom-link{
+    font-family: 'Abel',sans-serif;
+}
 body{
     font-family: 'Anton', sans-serif;
 
@@ -12,10 +13,14 @@ body{
 }
 img{
     width:25%;
+    z-index: 10001;}
 
-
-
+h1{
+    text-align:center;
+    font-family: 'Abel', sans-serif;
 }
+
+
 p{
     font-family: 'Abel', sans-serif;
 }
