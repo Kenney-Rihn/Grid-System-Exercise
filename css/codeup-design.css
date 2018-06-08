@@ -3,7 +3,7 @@
     padding: 0;
 
 }
-.tablet-button{
+.tablet-button, .medium-images{
     display: none;
 }
 
@@ -69,10 +69,11 @@ p{
 .circle-4{
     background-color: #00ABA9;
 }
-#apple-img{
+#apple-img2{
     border: 3px solid #f0f0f0;
     border-radius: 5px;
-    width: 80%;
+    width: auto;
+    height: 230px;
 }
 
 #small-circle{
@@ -92,8 +93,30 @@ p{
     .mobile-buttons{
             display: none;
     }
+
     .navbar{
         /*display: inline;*/
     }
-
+    #apple-img{
+        width: auto;
+        height: 230px;
+    }
+    #macbook-img{
+        border: 3px solid #f0f0f0;
+        border-radius: 5px;
+        width: auto;
+        height: 230px;
+    }
+    #man-img{
+        border: 3px solid #f0f0f0;
+        border-radius: 5px;
+        width: auto;
+        height: 230px;
+    }
+    #security-img{
+        border: 3px solid #f0f0f0;
+        border-radius: 5px;
+        width: auto;
+        height: 230px;
+    }
 }
