@@ -15,14 +15,15 @@ body{
 .image-settings {
     width: 105px;
     height: 105px;
-    text-align: center;
-    display:table-cell;
-    vertical-align: middle;
+    z-index: 1000;
+    position: relative;
+    top:-60px;
+    left:0px;
+
 }
 
 .custom-row{
-    max-height: 95px;
-    overflow-y: visible;
+    height: 50px;
 }
 h1,h5{
     text-align:center;
@@ -34,9 +35,6 @@ p{
     font-family: 'Abel', sans-serif;
 }
 
-.banner-image{
-    background-size: 100%;
-}
 .custom-h1{
     font-family: 'anton', sans-serif;
 }
