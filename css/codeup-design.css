@@ -12,7 +12,15 @@ body{
 }
 img{
     width:25%;
+
+
+
 }
 p{
     font-family: 'Abel', sans-serif;
 }
+
+.banner-image{
+    background-size: 100%;
+}
+
