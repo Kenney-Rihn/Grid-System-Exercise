@@ -165,3 +165,32 @@ p{
         left: 550px;
     }
 }
+@media screen and (min-width: 1023px){
+    .custom-nav-button1{
+        position:absolute;
+        top:-60px;
+        left: 685px;
+    }
+    .custom-nav-button2{
+        position:absolute;
+        top:-60px;
+        left: 780px;
+    }
+    .custom-nav-button3{
+        position:absolute;
+        top:-60px;
+        left: 850px;
+    }
+    .custom-nav-button4{
+        position:absolute;
+        top:-60px;
+        left: 900px;
+    }
+    .image-settings {
+        width: 105px;
+        height: 105px;
+        z-index: 1000;
+        position: relative;
+        top:-30px;
+        left:-400px;}
+}
