@@ -5,6 +5,7 @@
 }
 .tablet-button{
     display: none;
+
 }
 
 
@@ -22,13 +23,14 @@ body{
     height: 105px;
     z-index: 1000;
     position: relative;
-    top:-77px;
+    top:-30px;
     left:0px;
 
 }
 
 .custom-row{
     height: 50px;
+    position:sticky;
 }
 h1,h5{
     text-align:center;
@@ -76,7 +78,7 @@ p{
     height: 230px;
 }
 
-.small-circle{
+.small-circle {
     width: 18px;
     height: 18px;
     -webkit-border-radius: 25px;
@@ -87,16 +89,15 @@ p{
     line-height: 18px;
     float: left;
 }
-.image{
-    position: relative;
-    float: left;
-    width:  100px;
-    height: 100px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-}
+@media screen and (max-width:767px){
+    .mobile-hidden-img{
+        display:none;
+    }
+    .medium-navbar{
+        display:none;
 
+    }
+}
 
 @media screen and (min-width: 768px){
 
@@ -105,7 +106,7 @@ p{
     }
 
     .navbar{
-        /*display: inline;*/
+        display: inline;
     }
     #apple-img {
         width:auto;
@@ -134,7 +135,33 @@ p{
     .mobile-images{
         display:none;
     }
-    .medium-navbar{
-
+    .custom-link{
+        list-style-type: unstyled;
+    }
+    .custom-link a{
+        color: #000000;
+    }
+    .custom-link a:hover{
+        color: #a9a9a9;
+    }
+    .custom-nav-button1{
+        position:absolute;
+        top:-60px;
+        left: 120px;
+    }
+    .custom-nav-button2{
+        position:absolute;
+        top:-60px;
+        left: 220px;
+    }
+    .custom-nav-button3{
+        position:absolute;
+        top:-60px;
+        left: 450px;
+    }
+    .custom-nav-button4{
+        position:absolute;
+        top:-60px;
+        left: 550px;
     }
 }
