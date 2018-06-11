@@ -196,5 +196,12 @@ p{
     .large-images{
         width: 50px;
         height: 50px;
+        display: inline;
+
+
+    }
+    .custom-div-height{
+        height: 50px;
+        margin:25px;
     }
 }
