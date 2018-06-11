@@ -217,5 +217,13 @@ p{
         margin-top: 0;
         font-family: 'Abel', sans-serif;
     }
+    .bottom-photos{
+        bottom: 170px;
+    }
 
+}
+@media screen and (min-width: 1140px){
+    .bottom-photos{
+        bottom: 0px;
+    }
 }
