@@ -108,26 +108,26 @@ p{
         display: inline;
     }
     #apple-img {
-        width:auto;
+        width:300px;
         height:230px;
     }
 
     #macbook-img{
         border: 3px solid #f0f0f0;
         border-radius: 5px;
-        width:auto;
+        width:300px;
         height:230px;
     }
     #man-img{
         border: 3px solid #f0f0f0;
         border-radius: 5px;
-        width:auto;
+        width:300px;
         height:230px;
     }
     #security-img{
         border: 3px solid #f0f0f0;
         border-radius: 5px;
-        width:auto;
+        width:300px;
         height:230px;
 
     }
@@ -172,6 +172,12 @@ p{
 }
 @media screen and (min-width: 960px){
 
+    .custom-brand{
+        position:absolute;
+        top: 40px;
+        left:-210px;
+
+    }
     .custom-nav-button1{
         position:absolute;
         top:-60px;
@@ -225,5 +231,30 @@ p{
 @media screen and (min-width: 1140px){
     .bottom-photos{
         bottom: 0px;
+    }
+    .custom-brand{
+        position:absolute;
+        top: 40px;
+        left:-210px;
+    }
+    .custom-nav-button1{
+        position:absolute;
+        top:-60px;
+        left: 800px;
+    }
+    .custom-nav-button2{
+        position:absolute;
+        top:-60px;
+        left: 890px;
+    }
+    .custom-nav-button3{
+        position:absolute;
+        top:-60px;
+        left: 950px;
+    }
+    .custom-nav-button4{
+        position:absolute;
+        top:-60px;
+        left: 1000px;
     }
 }
